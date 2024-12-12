@@ -10,8 +10,8 @@ export default function Starter() {
   return (
     <>
       {/* Header Section */}
-      <header className="flex flex-row justify-between items-center p-6 ">
-        <h1 className="text-[#fff] text-3xl font-bold">
+      <header className="flex flex-row justify-between items-center p-6 md:p-8  ">
+        <h1 className="text-[#fff] text-3xl md:text-[40px] font-bold">
           THE PLANETS
         </h1>
         <nav>
@@ -35,14 +35,14 @@ export default function Starter() {
               alt="Planet Mercury Icon"
               className="w-6 h-6"
             />
-            <p className="text-[#fff] font-semibold text-lg">
+            <p className="text-[#fff] font-semibold text-lg md:text-[30px] md:ml-[20px]">
               MERCURY
             </p>
           </div>
           <img
             src="images/Path 3.svg"
             alt="Arrow Icon"
-            className="w-4 h-4"
+            className="w-4 h-4 md:w-8 md:h-8"
           />
         </button>
         <hr className="border-gray-600" />
@@ -58,14 +58,14 @@ export default function Starter() {
               alt="Planet Venus Icon"
               className="w-6 h-6"
             />
-            <p className="text-[#fff] font-semibold text-lg">
+            <p className="text-[#fff] font-semibold text-lg md:text-[30px] md:ml-[20px]">
               VENUS
             </p>
           </div>
           <img
             src="images/Path 3.svg"
             alt="Arrow Icon"
-            className="w-4 h-4"
+            className="w-4 h-4 md:w-8 md:h-8"
           />
         </button>
         <hr className="border-gray-600" />
@@ -81,14 +81,14 @@ export default function Starter() {
               alt="Planet Earth Icon"
               className="w-6 h-6"
             />
-            <p className="text-[#fff] font-semibold text-lg">
+            <p className="text-[#fff] font-semibold text-lg md:text-[30px] md:ml-[20px]">
               EARTH
             </p>
           </div>
           <img
             src="images/Path 3.svg"
             alt="Arrow Icon"
-            className="w-4 h-4"
+            className="w-4 h-4 md:w-8 md:h-8"
           />
         </button>
         <hr className="border-gray-600" />
@@ -104,14 +104,14 @@ export default function Starter() {
               alt="Planet Mars Icon"
               className="w-6 h-6"
             />
-            <p className="text-[#fff] font-semibold text-lg">
+            <p className="text-[#fff] font-semibold text-lg md:text-[30px] md:ml-[20px]">
               MARS
             </p>
           </div>
           <img
             src="images/Path 3.svg"
             alt="Arrow Icon"
-            className="w-4 h-4"
+            className="w-4 h-4 md:w-8 md:h-8"
           />
         </button>
         <hr className="border-gray-600" />
@@ -127,14 +127,14 @@ export default function Starter() {
               alt="Planet Jupiter Icon"
               className="w-6 h-6"
             />
-            <p className="text-[#fff] font-semibold text-lg">
+            <p className="text-[#fff] font-semibold text-lg md:text-[30px] md:ml-[20px]">
               JUPITER
             </p>
           </div>
           <img
             src="images/Path 3.svg"
             alt="Arrow Icon"
-            className="w-4 h-4"
+            className="w-4 h-4 md:w-8 md:h-8"
           />
         </button>
         <hr className="border-gray-600" />
@@ -150,14 +150,14 @@ export default function Starter() {
               alt="Planet Saturn Icon"
               className="w-6 h-6"
             />
-            <p className="text-[#fff] font-semibold text-lg">
+            <p className="text-[#fff] font-semibold text-lg md:text-[30px] md:ml-[20px]">
               SATURN
             </p>
           </div>
           <img
             src="images/Path 3.svg"
             alt="Arrow Icon"
-            className="w-4 h-4"
+            className="w-4 h-4 md:w-8 md:h-8"
           />
         </button>
         <hr className="border-gray-600" />
@@ -173,14 +173,14 @@ export default function Starter() {
               alt="Planet Uranus Icon"
               className="w-6 h-6"
             />
-            <p className="text-[#fff] font-semibold text-lg">
+            <p className="text-[#fff] font-semibold text-lg md:text-[30px] md:ml-[20px]">
               URANUS
             </p>
           </div>
           <img
             src="images/Path 3.svg"
             alt="Arrow Icon"
-            className="w-4 h-4"
+            className="w-4 h-4 md:w-8 md:h-8"
           />
         </button>
         <hr className="border-gray-600" />
@@ -196,14 +196,14 @@ export default function Starter() {
               alt="Planet Neptune Icon"
               className="w-6 h-6"
             />
-            <p className="text-[#fff] font-semibold text-lg">
+            <p className="text-[#fff] font-semibold text-lg md:text-[30px] md:ml-[20px]">
               NEPTUNE
             </p>
           </div>
           <img
             src="images/Path 3.svg"
             alt="Arrow Icon"
-            className="w-4 h-4"
+            className="w-4 h-4 md:w-8 md:h-8"
           />
         </button>
         <hr className="border-gray-600" />

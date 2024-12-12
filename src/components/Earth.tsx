@@ -7,7 +7,7 @@ export default function Earth() {
       {/* Main Content */}
       <main className="text-[#fff]">
         {/* Navigation Tabs */}
-        <div className="flex justify-center space-x-6 mt-4 text-lg font-semibold">
+        <div className="flex justify-center space-betwen mt-4   font-semibold">
           <span className="cursor-pointer hover:underline">
             OVERVIEW
           </span>
